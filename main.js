@@ -10,5 +10,5 @@ app.on('ready', function() {
         titleBarStyle: 'hiddenInset'
     });
 
-    mainWindow.loadURL('file://' + __dirname + '/app/index.html');
+    mainWindow.loadURL('file://' + __dirname + '/app/index/index.html');
 });

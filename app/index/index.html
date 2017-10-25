@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Uppsetningar.is</title>
+  <!-- Style imports -->
+  <link rel="stylesheet" href="../../node_modules/bulma/css/bulma.css">
+  <link rel="stylesheet" href="../../node_modules/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="../style/style.css">
+  <!-- Script imports -->
+  <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="../../node_modules/handlebars/dist/handlebars.js"></script>
+  <script type="text/javascript" src="script/index.js"></script>
+  <script>if (window.module) module = window.module;</script>
+
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+          <div class="field">
+            <label class="label">Username</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input is-success" type="text" placeholder="Username" value="">
+              <span class="icon is-small is-left">
+              <i class="fa fa-user"></i>
+            </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+          <div class="field">
+            <label class="label">Password</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input is-success" type="password" placeholder="Password" value="">
+              <span class="icon is-small is-left">
+              <i class="fa fa-user"></i>
+            </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-offset-8 is-2">
+          <a class="button is-primary" id="submit">Login</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
