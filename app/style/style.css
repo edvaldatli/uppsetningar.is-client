@@ -3,3 +3,11 @@ body{
   height: 1200px;
   background-color: #F0FFFF;
 }
+aside{
+  padding: 30px;
+  border-right: 1px lightgray solid;
+}
+nav{
+  background-color: #F0FFFF;
+  padding: 20px;
+}
